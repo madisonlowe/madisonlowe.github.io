@@ -1,0 +1,22 @@
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 2rem;
+  margin: auto;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  top: 0;
+}
+
+.navpoint {
+  color: var(--main-dark);
+  text-decoration: none;
+  text-decoration: underline 0.1em rgba(0, 0, 0, 0);
+  transition: text-decoration-color 300ms;
+}
+
+.navpoint:hover {
+  text-decoration-color: var(--main-lightest);
+}

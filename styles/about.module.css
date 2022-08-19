@@ -1,0 +1,60 @@
+.aboutMain {
+  width: 100%;
+  line-height: 200%;
+  grid-area: text;
+}
+
+.aboutDiv {
+  display: grid;
+  grid-template-areas: "text text whitespace";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 800px) {
+  .aboutDiv {
+    grid-template-areas: "text text text";
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .aboutDiv {
+    grid-template-areas: "text text text";
+  }
+}
+
+.aboutMain a {
+  font-weight: bold;
+  color: var(--main-dark);
+}
+
+.firstHov {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    var(--accent-one) 50%
+  );
+}
+
+.secondHov {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    var(--accent-two) 50%
+  );
+}
+
+.thirdHov {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    var(--accent-three) 50%
+  );
+}
+
+.fourthHov {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    var(--accent-four) 50%
+  );
+}

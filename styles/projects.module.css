@@ -1,0 +1,19 @@
+.projectsMain {
+  width: 100%;
+}
+
+.projectsMain a {
+  font-weight: bold;
+}
+
+.scrollBox {
+  height: 70vh;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollBox::-webkit-scrollbar {
+  display: none;
+}

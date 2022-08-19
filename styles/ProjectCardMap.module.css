@@ -1,0 +1,15 @@
+.projectsDiv {
+  width: 66%;
+}
+
+@media screen and (max-width: 800px) {
+  .projectsDiv {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .projectsDiv {
+    width: 100%;
+  }
+}

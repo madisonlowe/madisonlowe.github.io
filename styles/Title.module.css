@@ -1,0 +1,22 @@
+.homeTitle {
+  color: var(--main-dark);
+  font-size: 3.4rem;
+  padding-top: 20%;
+}
+
+.descriptor {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    var(--accent-two) 50%
+  );
+  background-position: -0% 0;
+  background-size: 200% auto;
+  transition: background-position 0.5s ease-out;
+  text-decoration: underline;
+}
+
+.descriptor:hover {
+  cursor: pointer;
+  background-position: -99.99% 0;
+}

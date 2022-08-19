@@ -1,0 +1,47 @@
+:root {
+  --main-light: #f7f7ff;
+  --main-dark: #27263b;
+  --accent-one: #3d9f94;
+  --accent-two: #ffad33;
+  --accent-three: #f24333;
+  --accent-four: #7787eb;
+}
+
+html,
+body {
+  margin: 2rem;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: var(--main-dark);
+  background-color: var(--main-light);
+}
+
+@media screen and (max-width: 800px) {
+  html,
+  body {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  html,
+  body {
+    margin: 1rem;
+  }
+}
+
+a {
+  font-weight: bold;
+  background-position: -0% 0;
+  background-size: 200% auto;
+  transition: background-position 0.5s ease-out;
+}
+
+a:hover {
+  background-position: -99.99% 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
