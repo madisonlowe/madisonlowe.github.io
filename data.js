@@ -35,7 +35,7 @@ export const projects = [
       "Team Project",
       "Full-stack",
       "Next.js / Node.js / Express / PostgreSQL",
-      "RESTful API",
+      "API",
     ],
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
       "Team Project",
       "Full-stack",
       "React / Node.js / Express / PostgreSQL",
-      "RESTful API",
+      "API",
     ],
   },
   {
