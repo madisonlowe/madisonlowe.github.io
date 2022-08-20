@@ -45,6 +45,12 @@ export const projects = [
     tags: ["Team Project", "Full-stack", "React", "Hackathon"],
   },
   {
+    title: "Weather App",
+    desc: "A weather app built in Typescript. This project was built during a day-long hackathon at the School of Code alongside other developers, and it was the first full project any of us had built in Typescript, which we'd first started looking at two days previous.",
+    github: "https://github.com/madisonlowe/weatherts",
+    tags: ["Team Project", "Front-end", "Typescript", "Hackathon"],
+  },
+  {
     title: ".Class",
     desc: "A full-stack application written in React, Node.js, Express and PostgreSQL. In our ninth week of learning how to code, myself and three other teammates came together to build our MVP in under a week, before presenting our product to a panel of senior developers and industry professionals for questions and feedback.",
     github: "https://github.com/SchoolOfCode/w9_frontend-project-room-21-1",
@@ -60,12 +66,6 @@ export const projects = [
     desc: "The second version of my personal website, rebuilt in React. Rebuilding my website provided me with an opportunity to get some more experience working with React, which I didn't have a lot of experience with at the time. It was really fun to work with, though routing and deployment to GitHub provided their own challenges and drawbacks, which is how I ended up rebuilding the site again in Next.js (which is what you're reading now)!",
     github: "https://github.com/madisonlowe/mySiteReact",
     tags: ["Personal Project", "Front-end", "React / CSS"],
-  },
-  {
-    title: "Weather App",
-    desc: "A weather app built in Typescript. This project was built during a day-long hackathon at the School of Code alongside other developers, and it was the first full project any of us had built in Typescript, which we'd first started looking at two days previous.",
-    github: "https://github.com/madisonlowe/weatherts",
-    tags: ["Team Project", "Front-end", "Typescript", "Hackathon"],
   },
   {
     title: "To Do List",
