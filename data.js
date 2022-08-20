@@ -62,6 +62,12 @@ export const projects = [
     tags: ["Personal Project", "Front-end", "React / CSS"],
   },
   {
+    title: "Weather App",
+    desc: "A weather app built in Typescript. This project was built during a day-long hackathon at the School of Code alongside other developers, and it was the first full project any of us had built in Typescript, which we'd first started looking at two days previous.",
+    github: "https://github.com/madisonlowe/toDoList",
+    tags: ["Team Project", "Front-end", "Typescript", "Hackathon"],
+  },
+  {
     title: "To Do List",
     desc: "A simple to-do list app, built in React. This project was the first thing I built in React, and it provided a great learning exercise to get to grips with using state and props.",
     github: "https://github.com/madisonlowe/toDoList",
