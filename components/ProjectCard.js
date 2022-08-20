@@ -7,12 +7,12 @@ export default function ProjectCard({ title, desc, github, tags }) {
       <a href={github} className={styles.cardLink}>
         See on GitHub
       </a>
-      <p className={styles.description}>{desc}</p>
       <ul className={styles.tagsUl}>
         {tags.map((tag) => {
           return <li className={styles.tagsLi}>{tag}</li>;
         })}
       </ul>
+      <p className={styles.description}>{desc}</p>
     </div>
   );
 }

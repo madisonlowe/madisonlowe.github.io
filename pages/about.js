@@ -24,12 +24,11 @@ const About = () => (
             I like making things and solving problems.
           </h2>
           <p>
-            Having previously worked in retail, telemarketing and customer
-            service, after completing my Literature MSc during the Covid-19
-            lockdowns, I decided to expand my horizons and try something new. I
-            wanted to be able to work creatively and productively while engaging
-            fresh opportunities for learning and personal growth. I knew that
-            programming would allow me to do just that.
+            Having previous experience in retail, sales, customer service and
+            complaints handling, and translating thousand-year-old manuscripts,
+            I decided to try something new in 2022. I wanted to be able to work
+            creatively and productively, while also pushing myself to learn and
+            grow. So, I decided to start programming!
           </p>
           <p>
             I got started by completing the SheCodes Basics{" "}
@@ -49,12 +48,21 @@ const About = () => (
               Responsive Web Design
             </a>{" "}
             certifications in Spring 2022. This led me to the School of Code,
-            where I was selected as one of 150 bootcampers – out of nearly 3000
-            applicants – to train full-time from April through August in
-            software development.
+            where I was selected as one of 180 bootcampers – out of nearly 3000
+            applicants – to develop software full-time from April through
+            August. You can preview some of my work under the Projects tab, as
+            well as on{" "}
+            <a
+              target="_blank"
+              href="https://github.com/madisonlowe"
+              className={styles.secondHov}
+            >
+              GitHub
+            </a>
+            .{" "}
           </p>
           <p>
-            You can find me on{" "}
+            Feel free to reach out! You can find me on{" "}
             <a
               target="_blank"
               href="https://www.linkedin.com/in/madisonclowe/"
@@ -78,16 +86,8 @@ const About = () => (
             >
               send me an email
             </a>{" "}
-            <em>(opens in a new tab).</em> You can see some of my work under the
-            Projects tab, as well as on{" "}
-            <a
-              target="_blank"
-              href="https://github.com/madisonlowe"
-              className={styles.secondHov}
-            >
-              GitHub
-            </a>
-            .{" "}
+            <em>(opens in a new tab).</em> I might take a little longer to get
+            back to emails! But I'm always happy to chat. Catch you soon!
           </p>
         </section>
       </main>
