@@ -64,7 +64,7 @@ export const projects = [
   {
     title: "Weather App",
     desc: "A weather app built in Typescript. This project was built during a day-long hackathon at the School of Code alongside other developers, and it was the first full project any of us had built in Typescript, which we'd first started looking at two days previous.",
-    github: "https://github.com/madisonlowe/toDoList",
+    github: "https://github.com/madisonlowe/weatherts",
     tags: ["Team Project", "Front-end", "Typescript", "Hackathon"],
   },
   {
