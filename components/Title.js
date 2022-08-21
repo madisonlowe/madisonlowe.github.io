@@ -16,7 +16,9 @@ export default function Title() {
   return (
     <div>
       <h1 className={styles.homeTitle}>
-        My name is Madison and I am a{" "}
+        My name is Madison
+        <br />
+        and I am a{" "}
         <span className={styles.descriptor} onClick={handleDescriptor}>
           {descriptor}.
         </span>

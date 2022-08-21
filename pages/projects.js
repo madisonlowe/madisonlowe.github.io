@@ -5,7 +5,7 @@ import styles from "../styles/projects.module.css";
 import Head from "next/head";
 
 const Projects = () => (
-  <>
+  <div>
     <Head>
       <title>Madison Lowe</title>
       <link
@@ -23,7 +23,7 @@ const Projects = () => (
         <ProjectCardMap projects={projects} />
       </div>
     </main>
-  </>
+  </div>
 );
 
 export default Projects;
