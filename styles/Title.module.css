@@ -25,4 +25,7 @@
   .descriptor {
     background-image: none;
   }
+  .homeTitle {
+    font-size: 2rem;
+  }
 }
