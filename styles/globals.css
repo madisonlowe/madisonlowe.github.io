@@ -1,10 +1,10 @@
 :root {
   --main-two: #f7f7ff;
   --main-one: #27263b;
-  --accent-one: #3d9f94;
+  --accent-one: #348078;
   --accent-two: #ffad33;
-  --accent-three: #f24333;
-  --accent-four: #7787eb;
+  --accent-three: #e6210f;
+  --accent-four: #586be6;
 }
 
 html,
@@ -40,6 +40,9 @@ a {
 
 a:hover {
   background-position: -99.99% 0;
+}
+
+@media screen and (max-width: 325px) {
 }
 
 h1 {

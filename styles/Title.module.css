@@ -20,3 +20,9 @@
   cursor: pointer;
   background-position: -99.99% 0;
 }
+
+@media screen and (max-width: 800px) {
+  .descriptor {
+    background-image: none;
+  }
+}
