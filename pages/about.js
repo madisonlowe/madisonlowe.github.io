@@ -55,7 +55,7 @@ const About = () => (
             <a
               target="_blank"
               href="https://github.com/madisonlowe"
-              className={styles.secondHov}
+              className={styles.thirdHov}
             >
               GitHub
             </a>
@@ -66,7 +66,7 @@ const About = () => (
             <a
               target="_blank"
               href="https://www.linkedin.com/in/madisonclowe/"
-              className={styles.thirdHov}
+              className={styles.fourthHov}
             >
               LinkedIn
             </a>{" "}
@@ -74,7 +74,7 @@ const About = () => (
             <a
               target="_blank"
               href="https://twitter.com/dotmdsn"
-              className={styles.fourthHov}
+              className={styles.firstHov}
             >
               Twitter
             </a>
@@ -82,7 +82,7 @@ const About = () => (
             <a
               target="_blank"
               href="mailto:dotmdsn@live.com"
-              className={styles.firstHov}
+              className={styles.secondHov}
             >
               send me an email
             </a>{" "}
