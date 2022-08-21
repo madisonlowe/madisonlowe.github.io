@@ -78,7 +78,7 @@ const About = () => (
             >
               Twitter
             </a>
-            . If you're more of a traditionalist, though, feel free to{" "}
+            . If you're more of a traditionalist, though, you can always{" "}
             <a
               target="_blank"
               href="mailto:dotmdsn@live.com"
