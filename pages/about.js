@@ -48,7 +48,7 @@ const About = () => (
               Responsive Web Design
             </a>{" "}
             certifications in Spring 2022. This led me to the School of Code,
-            where I was selected as one of 180 bootcampers – out of nearly 3000
+            where I was selected as one of 150 bootcampers – out of nearly 3000
             applicants – to develop software full-time from April through
             August. You can preview some of my work under the Projects tab, as
             well as on{" "}
@@ -59,7 +59,7 @@ const About = () => (
             >
               GitHub
             </a>
-            .{" "}
+            .
           </p>
           <p>
             Feel free to reach out! You can find me on{" "}
@@ -86,8 +86,7 @@ const About = () => (
             >
               send me an email
             </a>{" "}
-            <em>(opens in a new tab).</em> I might take a little longer to get
-            back to emails! But I'm always happy to chat. Catch you soon!
+            <em>(opens in a new tab).</em>
           </p>
         </section>
       </main>
