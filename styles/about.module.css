@@ -10,24 +10,6 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media screen and (max-width: 800px) {
-  .aboutDiv {
-    grid-template-areas: "text text text";
-  }
-  .firstHov {
-    background-image: none;
-  }
-  .secondHov {
-    background-image: none;
-  }
-  .thirdHov {
-    background-image: none;
-  }
-  .fourthHov {
-    background-image: none;
-  }
-}
-
 @media screen and (max-width: 325px) {
   .aboutDiv {
     grid-template-areas: "text text text";
@@ -69,4 +51,22 @@
     rgba(255, 255, 255, 0) 50%,
     var(--accent-four) 50%
   );
+}
+
+@media screen and (max-width: 800px) {
+  .aboutDiv {
+    grid-template-areas: "text text text";
+  }
+  .firstHov {
+    background-image: none;
+  }
+  .secondHov {
+    background-image: none;
+  }
+  .thirdHov {
+    background-image: none;
+  }
+  .fourthHov {
+    background-image: none;
+  }
 }
