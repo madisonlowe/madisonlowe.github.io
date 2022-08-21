@@ -4,7 +4,7 @@ export default function ProjectCard({ title, desc, github, tags }) {
   return (
     <div className={styles.cardDiv}>
       <p className={styles.cardTitle}>{title}</p>
-      <a href={github} className={styles.cardLink}>
+      <a href={github} className={styles.cardLink} target="_blank">
         See on GitHub
       </a>
       <ul className={styles.tagsUl}>
