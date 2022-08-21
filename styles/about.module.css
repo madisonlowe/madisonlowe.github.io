@@ -14,6 +14,18 @@
   .aboutDiv {
     grid-template-areas: "text text text";
   }
+  .firstHov {
+    background-image: none;
+  }
+  .secondHov {
+    background-image: none;
+  }
+  .thirdHov {
+    background-image: none;
+  }
+  .fourthHov {
+    background-image: none;
+  }
 }
 
 @media screen and (max-width: 325px) {

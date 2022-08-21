@@ -42,6 +42,9 @@ a:hover {
   background-position: -99.99% 0;
 }
 
+@media screen and (max-width: 325px) {
+}
+
 h1 {
   font-size: 2rem;
 }
