@@ -11,12 +11,12 @@
 }
 
 .navpoint {
-  color: var(--main-dark);
+  color: var(--main-two);
   text-decoration: none;
   text-decoration: underline 0.1em rgba(0, 0, 0, 0);
   transition: text-decoration-color 300ms;
 }
 
 .navpoint:hover {
-  text-decoration-color: var(--main-lightest);
+  text-decoration-color: var(--main-one);
 }

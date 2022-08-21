@@ -1,6 +1,6 @@
 :root {
-  --main-light: #f7f7ff;
-  --main-dark: #27263b;
+  --main-two: #f7f7ff;
+  --main-one: #27263b;
   --accent-one: #3d9f94;
   --accent-two: #ffad33;
   --accent-three: #f24333;
@@ -13,8 +13,8 @@ body {
   font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  color: var(--main-dark);
-  background-color: var(--main-light);
+  color: var(--main-two);
+  background-color: var(--main-one);
 }
 
 @media screen and (max-width: 800px) {

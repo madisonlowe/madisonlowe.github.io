@@ -9,8 +9,8 @@
 
 .cardLink {
   text-decoration: none;
-  background: var(--main-dark);
-  color: var(--main-light);
+  background: var(--main-two);
+  color: var(--main-one);
   padding: 0.5rem;
   font-size: 0.8rem;
 }
