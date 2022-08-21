@@ -14,13 +14,13 @@ export default function Title() {
   }
 
   return (
-    <main>
+    <div>
       <h1 className={styles.homeTitle}>
         My name is Madison and I am a{" "}
         <span className={styles.descriptor} onClick={handleDescriptor}>
           {descriptor}.
         </span>
       </h1>
-    </main>
+    </div>
   );
 }
