@@ -2,6 +2,9 @@
   color: var(--main-two);
   font-size: 3.4rem;
   padding-top: 20%;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .descriptor {
