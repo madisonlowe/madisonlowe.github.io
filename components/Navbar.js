@@ -6,7 +6,7 @@ const Header = () => (
     <ul className={styles.navigation}>
       <li>
         <Link href="/">
-          <a className={styles.navpoint}>Index</a>
+          <a className={styles.navpoint}>Home</a>
         </Link>
       </li>
       <li>
