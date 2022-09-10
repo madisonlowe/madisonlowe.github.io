@@ -1,6 +1,10 @@
 .cardDiv {
-  padding: 3rem 0;
+  margin: 3rem 0;
   padding-top: 0;
+  background: var(--main-two);
+  color: var(--black);
+  padding: 2rem;
+  max-width: 700px;
 }
 
 .cardTitle {
@@ -10,10 +14,10 @@
 
 .cardLink {
   text-decoration: none;
-  background: var(--main-two);
-  color: var(--main-one);
-  padding: 0.5rem;
-  font-size: 0.8rem;
+  background: var(--main-one);
+  color: var(--main-two);
+  padding: 0.6rem;
+  font-size: 0.9rem;
 }
 
 .tagsUl {
@@ -53,4 +57,24 @@
 
 .description {
   line-height: 200%;
+}
+
+@media screen and (max-width: 800px) {
+  .cardDiv {
+    margin: 3rem 0;
+    padding-top: 0;
+    background: var(--main-two);
+    color: var(--black);
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .cardDiv {
+    margin: 3rem 0;
+    padding-top: 0;
+    background: var(--main-two);
+    color: var(--black);
+    padding: 1rem;
+  }
 }

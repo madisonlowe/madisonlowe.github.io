@@ -28,8 +28,14 @@ RESTful API
 
 export const projects = [
   {
+    title: "Notionish",
+    desc: "An in-progress Notion(ish) clone, built in TypeScript with React! It's been really fun to get a little more hands-on with TypeScript in particular, and to experiment with how it interacts with React. I'm excited to carry on learning more.",
+    github: "https://github.com/madisonlowe/notionish",
+    tags: ["Personal Project", "Front-end", "TypeScript / React"],
+  },
+  {
     title: "Seasonal",
-    desc: "A full-stack application written in Next.js, Node.js, Express and PostgreSQL, using both third-party and our own APIs. Designed and built by a small agile team, we completed our MVP and first stretch goal within a month, and presented our product to other developers and industry professionals at a virtual showcase. A video of our presentation is linked in the GitHub repository.",
+    desc: "A full-stack application written in Next.js, Node.js, Express and PostgreSQL, using both third-party and our own APIs. Designed and built by a small agile team, we completed our MVP and first stretch goal within a month, and presented our product to other developers and industry professionals at a virtual showcase. We've continued work on the app and API since, accomplishing more stretch goals. A video of our presentation is linked in the GitHub repository.",
     github: "https://github.com/SchoolOfCode/final-project_front-end-12",
     tags: [
       "Team Project",
@@ -40,7 +46,7 @@ export const projects = [
   },
   {
     title: "Couchbase Hackathon",
-    desc: "I attended a hackathon at the Couchbase Manchester office, where me and a small team created a full-stack application in a day, which could track moors fires (and in the future, other ecological disasters too). Our team won! It was great to get some experience using Couchbase and non-relational databases, which I had never used before this hackathon.",
+    desc: "I attended a hackathon at the Couchbase Manchester office, where me and a small team created a full-stack application in a day, which could track moors fires (and in the future, other ecological disasters too). Our team won! It was great to get some experience using Couchbase and non-relational databases, which I had never used before this hackathon, and I loved getting to know the Couchbase team and engineers. A really fun experience!",
     github: "https://github.com/madisonlowe/couchbaseHackathon",
     tags: ["Team Project", "Full-stack", "React", "Hackathon"],
   },
@@ -75,7 +81,7 @@ export const projects = [
   },
   {
     title: "Site 1.0",
-    desc: "The first version of my personal website, built in vanilla JavaScript. Primarily, this project provided an opportunity to practice working through UX/UI design cycles and get some experience with the fundamentals. The process of designing my original product - the website - according to a given brief is documented further on GitHub.",
+    desc: "The first version of my personal website, built in vanilla JavaScript. Primarily, this project provided an opportunity to practice working through UX/UI design cycles and get some experience with the fundamentals. The process of designing my website according to a given brief is documented further on GitHub.",
     github: "https://github.com/madisonlowe/mySiteVanilla",
     tags: ["Personal Project", "Front-end", "HTML / CSS / JavaScript"],
   },
@@ -85,17 +91,12 @@ export const projects = [
     github: "https://github.com/madisonlowe/RPS",
     tags: ["Personal Project", "Front-end", "HTML / CSS / JavaScript"],
   },
-  // {
-  //   title: "Cat Treat Generator",
-  //   desc: "A tiny microproject: a cat treat randomiser, stylised to look like a receipt at a continental eatery.",
-  //   github: "https://github.com/madisonlowe/catTreat",
-  //   tags: ["Personal Project", "Front-end", "HTML / CSS / JavaScript"],
-  // },
-  // {
-  //   title: "Auth0",
-  //   desc: "An experiment in using Auth0 to build a user login page.",
-  //   github: "https://github.com/madisonlowe/w10d4_auth0",
-  // },
+  {
+    title: "100 Days",
+    desc: "This is a log of my learning experiences, reflections, progress, and some useful resources and advice I encountered from different people while attending the School of Code programming bootcamp and completing the #100DaysOfCode challenge. It was really helpful to be able to keep detailed track of my progress, technically and personally. Hopefully, there are some small, useful bits and bobs in there for any current or future bootcamper who finds it, and if you have any questions, I'd be more than happy to chat!",
+    github: "https://github.com/madisonlowe/100Days",
+    tags: ["Personal Project", "Documentation", "Markdown"],
+  },
 ];
 
 export const descriptors = [
@@ -104,6 +105,7 @@ export const descriptors = [
   "Sheffielder",
   "houseplant enthusiast",
   "cat person",
+  "functional gardener",
   "questionable cook",
   "bad dancer",
 ];
