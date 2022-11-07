@@ -10,7 +10,8 @@ export default function ProjectCardMap({ projects }) {
           title={project.title}
           desc={project.desc}
           src={project.src}
-          github={project.github}
+          link={project.link}
+          linktext={project.linktext}
           tags={project.tags}
         />
       ))}

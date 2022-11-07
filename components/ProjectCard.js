@@ -1,15 +1,21 @@
 import styles from "../styles/ProjectCard.module.css";
 
-export default function ProjectCard({ title, desc, github, tags }) {
+export default function ProjectCard({ title, desc, link, linktext, tags }) {
   return (
     <div className={styles.cardDiv}>
       <p className={styles.cardTitle}>{title}</p>
-      <a href={github} className={styles.cardLink} target="_blank">
-        See on GitHub
+      <a href={link} className={styles.cardLink} target="_blank">
+        {linktext}
       </a>
       <ul className={styles.tagsUl}>
         {tags.map((tag) => {
-          return <li className={styles.tagsLi}>{tag}</li>;
+          return typeof tag === "object" ? (
+            Object.values(tag).map((value) => (
+              <li className={styles.tagsLi}>{value}</li>
+            ))
+          ) : (
+            <li className={styles.tagsLi}>{tag}</li>
+          );
         })}
       </ul>
       <p className={styles.description}>{desc}</p>

@@ -24,49 +24,41 @@ const About = () => (
             I like making things and solving problems.
           </h2>
           <p>
-            Having previous experience in retail, sales, customer service and
-            complaints handling, and translating thousand-year-old manuscripts,
-            I decided to try something new in 2022. I wanted to be able to work
-            creatively and productively, while also pushing myself to learn and
-            grow. So, I decided to start programming!
+            In a previous life, I worked in retail, sales, customer service and
+            complaints handling, and translated thousand year-old manuscripts
+            while pursuing an MSc.
           </p>
           <p>
-            I got started by completing the SheCodes Basics{" "}
+            I wanted something a little more dynamic and fulfilling in my
+            day-to-day, though, and so decided to change careers, graduating
+            from the{" "}
             <a
               target="_blank"
-              href="https://www.shecodes.io/certificates/3406255c971ef3077b043a898fd80aed"
+              href="https://www.schoolofcode.co.uk"
               className={styles.firstHov}
             >
-              Introduction to Coding
+              School of Code
             </a>{" "}
-            and freeCodeCamp’s{" "}
-            <a
-              target="_blank"
-              href="https://www.freecodecamp.org/certification/saelida/responsive-web-design"
-              className={styles.secondHov}
-            >
-              Responsive Web Design
-            </a>{" "}
-            certifications in Spring 2022. This led me to the School of Code,
-            where I was selected as one of 150 bootcampers – out of nearly 3000
-            applicants – to develop software full-time from April through
-            August. You can preview some of my work under the Projects tab, as
-            well as on{" "}
+            in 2022.
+          </p>
+          <p>
+            You can preview some of my work under the Projects tab, as well as
+            on{" "}
             <a
               target="_blank"
               href="https://github.com/madisonlowe"
-              className={styles.thirdHov}
+              className={styles.secondHov}
             >
               GitHub
             </a>
             .
           </p>
           <p>
-            Feel free to reach out! You can find me on{" "}
+            Feel free to reach out too! You can find me on{" "}
             <a
               target="_blank"
               href="https://www.linkedin.com/in/madisonclowe/"
-              className={styles.fourthHov}
+              className={styles.thirdHov}
             >
               LinkedIn
             </a>{" "}
@@ -74,7 +66,7 @@ const About = () => (
             <a
               target="_blank"
               href="https://twitter.com/dotmdsn"
-              className={styles.firstHov}
+              className={styles.fourthHov}
             >
               Twitter
             </a>
@@ -82,7 +74,7 @@ const About = () => (
             <a
               target="_blank"
               href="mailto:dotmdsn@live.com"
-              className={styles.secondHov}
+              className={styles.firstHov}
             >
               send me an email
             </a>{" "}
