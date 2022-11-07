@@ -6,21 +6,12 @@ Team Project
 Pair Programming
 Personal Project
 
-
 STACK
 Full-stack
 Front-end
 Back-end
 
-LANGUAGES
-HTML
-CSS
-JavaScript
-React
-Next.js
-Node.js 
-Express 
-PostgreSQL 
+TECHNOLOGIES
 
 EXTRAS
 Hackathon
@@ -34,7 +25,7 @@ export const projects = [
     desc: "An in-progress Notion(ish) clone, built in TypeScript with React! It's been really fun to get a little more hands-on with TypeScript in particular, and to experiment with how it interacts with React. I'm excited to carry on learning more.",
     link: "https://github.com/madisonlowe/notionish",
     linktext: "See on GitHub",
-    tags: ["Personal Project", "Front-end", "TypeScript / React"],
+    tags: ["Personal Project", "Front-end", ["TypeScript", "React"]],
   },
   {
     title: "Seasonal",
@@ -44,7 +35,7 @@ export const projects = [
     tags: [
       "Team Project",
       "Full-stack",
-      "Next.js / Node.js / Express / PostgreSQL",
+      ["Next.js", "Node.js", "Express", "PostgreSQL"],
       "API",
     ],
   },
@@ -70,7 +61,7 @@ export const projects = [
     tags: [
       "Team Project",
       "Full-stack",
-      "React / Node.js / Express / PostgreSQL",
+      ["React", "Node.js", "Express", "PostgreSQL"],
       "API",
     ],
   },
@@ -79,7 +70,7 @@ export const projects = [
     desc: "The second version of my personal website, rebuilt in React. Rebuilding my website provided me with an opportunity to get some more experience working with React, which I didn't have a lot of experience with at the time. It was really fun to work with, though routing and deployment to GitHub provided their own challenges and drawbacks, which is how I ended up rebuilding the site again in Next.js (which is what you're reading now)!",
     link: "https://github.com/madisonlowe/mySiteReact",
     linktext: "See on GitHub",
-    tags: ["Personal Project", "Front-end", "React / CSS"],
+    tags: ["Personal Project", "Front-end", ["React", "CSS"]],
   },
   {
     title: "To Do List",
@@ -93,14 +84,14 @@ export const projects = [
     desc: "The first version of my personal website, built in vanilla JavaScript. Primarily, this project provided an opportunity to practice working through UX/UI design cycles and get some experience with the fundamentals. The process of designing my website according to a given brief is documented further on GitHub.",
     link: "https://github.com/madisonlowe/mySiteVanilla",
     linktext: "See on GitHub",
-    tags: ["Personal Project", "Front-end", "HTML / CSS / JavaScript"],
+    tags: ["Personal Project", "Front-end", ["HTML", "CSS", "JavaScript"]],
   },
   {
     title: "Rock, Paper, Scissors!",
     desc: "The first game I ever built in JavaScript! A small browser game with light and dark mode toggle. I built the first version of this game in my first week working with JavaScript, and continued to improve it and add to it as a way to practice HTML, CSS and JavaScript earlier in my learning journey.",
     link: "https://github.com/madisonlowe/RPS",
     linktext: "See on GitHub",
-    tags: ["Personal Project", "Front-end", "HTML / CSS / JavaScript"],
+    tags: ["Personal Project", "Front-end", ["HTML", "CSS", "JavaScript"]],
   },
   {
     title: "100 Days",
@@ -129,7 +120,7 @@ export const projects = [
     tags: [
       "Personal Project",
       "Front-end",
-      "HTML, CSS and JavaScript",
+      ["HTML", "CSS", "JavaScript"],
       "Certification",
     ],
   },
