@@ -24,38 +24,41 @@ const About = () => (
             I like making things and solving problems.
           </h2>
           <p>
-            Hey! My name is Madison and I’m a full-stack software developer. You
-            can preview some of my work under the Projects tab, as well as on{" "}
-            <a
-              target="_blank"
-              href="https://github.com/madisonlowe"
-              className={styles.thirdHov}
-            >
-              GitHub
-            </a>
-            .
-          </p>
-          <p>
             In a previous life, I worked in retail, sales, customer service and
             complaints handling, and translated thousand year-old manuscripts
-            while pursuing an MSc. I wanted something a little more dynamic and
-            fulfilling in my day-to-day, though, and so decided to change
-            careers, graduating from the{" "}
+            while pursuing an MSc.
+          </p>
+          <p>
+            I wanted something a little more dynamic and fulfilling in my
+            day-to-day, though, and so decided to change careers, graduating
+            from the{" "}
             <a
               target="_blank"
               href="https://www.schoolofcode.co.uk"
-              className={styles.fourthHov}
+              className={styles.firstHov}
             >
               School of Code
             </a>{" "}
             in 2022.
           </p>
           <p>
-            Feel free to reach out! You can find me on{" "}
+            You can preview some of my work under the Projects tab, as well as
+            on{" "}
+            <a
+              target="_blank"
+              href="https://github.com/madisonlowe"
+              className={styles.secondHov}
+            >
+              GitHub
+            </a>
+            .
+          </p>
+          <p>
+            Feel free to reach out too! You can find me on{" "}
             <a
               target="_blank"
               href="https://www.linkedin.com/in/madisonclowe/"
-              className={styles.firstHov}
+              className={styles.thirdHov}
             >
               LinkedIn
             </a>{" "}
@@ -63,7 +66,7 @@ const About = () => (
             <a
               target="_blank"
               href="https://twitter.com/dotmdsn"
-              className={styles.secondHov}
+              className={styles.fourthHov}
             >
               Twitter
             </a>
@@ -71,7 +74,7 @@ const About = () => (
             <a
               target="_blank"
               href="mailto:dotmdsn@live.com"
-              className={styles.thirdHov}
+              className={styles.firstHov}
             >
               send me an email
             </a>{" "}

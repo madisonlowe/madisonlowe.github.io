@@ -31,17 +31,7 @@
 
 .tagsLi {
   padding: 0 1rem;
-  background: var(--accent-two);
-  line-height: 200%;
-  margin: 0.5rem;
-  margin-left: 0;
-  font-size: 0.8rem;
-  font-weight: bold;
-}
-
-.tagsLiObj {
-  padding: 0 1rem;
-  background: var(--accent-four);
+  background: var(--accent-one);
   line-height: 200%;
   margin: 0.5rem;
   margin-left: 0;
