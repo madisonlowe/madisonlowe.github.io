@@ -6,6 +6,7 @@ Team Project
 Pair Programming
 Personal Project
 
+
 STACK
 Full-stack
 Front-end
@@ -24,6 +25,7 @@ PostgreSQL
 EXTRAS
 Hackathon
 RESTful API
+Certification
 */
 
 export const projects = [
@@ -96,6 +98,30 @@ export const projects = [
     desc: "This is a log of my learning experiences, reflections, progress, and some useful resources and advice I encountered from different people while attending the School of Code programming bootcamp and completing the #100DaysOfCode challenge. It was really helpful to be able to keep detailed track of my progress, technically and personally. Hopefully, there are some small, useful bits and bobs in there for any current or future bootcamper who finds it, and if you have any questions, I'd be more than happy to chat!",
     github: "https://github.com/madisonlowe/100Days",
     tags: ["Personal Project", "Documentation", "Markdown"],
+  },
+  {
+    title: "Responsive Web Design",
+    desc: "A freeCodeCamp course which offers a great project-based introduction to responsive web design and how to code for accessibility on the web.",
+    github:
+      "https://www.freecodecamp.org/certification/saelida/responsive-web-design",
+    tags: [
+      "Personal Project",
+      "Front-end",
+      "HTML, CSS and JavaScript",
+      "Certification",
+    ],
+  },
+  {
+    title: "SheCodes Basics",
+    desc: "An introductory series of workshops on creating accessible, reactive webpages with HTML, CSS and JavaScript. As an eternally-online teenager, I'd had a lot of experience messing around in webpage code to try and change different UIs. It was great to be able to get a more structured overview of the workings behind that experience.",
+    github:
+      "https://www.shecodes.io/certificates/3406255c971ef3077b043a898fd80aed",
+    tags: [
+      "Personal Project",
+      "Front-end",
+      "HTML, CSS and JavaScript",
+      "Certification",
+    ],
   },
 ];
 
