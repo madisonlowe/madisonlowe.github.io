@@ -117,7 +117,7 @@ export const projects = [
     tags: [
       "Personal Project",
       "Front-end",
-      "HTML, CSS and JavaScript",
+      ["HTML", "CSS", "JavaScript"],
       "Certification",
     ],
   },

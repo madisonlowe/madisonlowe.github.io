@@ -9,7 +9,13 @@ export default function ProjectCard({ title, desc, link, linktext, tags }) {
       </a>
       <ul className={styles.tagsUl}>
         {tags.map((tag) => {
-          return <li className={styles.tagsLi}>{tag}</li>;
+          return typeof tag === "object" ? (
+            Object.values(tag).map((value) => (
+              <li className={styles.tagsLi}>{value}</li>
+            ))
+          ) : (
+            <li className={styles.tagsLi}>{tag}</li>
+          );
         })}
       </ul>
       <p className={styles.description}>{desc}</p>
